@@ -14,6 +14,44 @@ body{
     margin: 0;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #222831;
+    color: #f9faf8;
+}
+
+.sign-up{
+    background-color: #00a6c0;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 120px;
+    gap: 270px;
+}
+
+.content.call{
+    justify-content: center;
+    align-items: flex-start;
+    color: #f9faf8;
+    padding: 30px;
+}
+
+.call h4{
+    margin: 0;
+    font-size: 22px;
+}
+
+.call p{
+    margin: 0;
+    font-size: 18px;
+}
+
 .content.quotes{
     background-color: #d8d7ce;
 }
@@ -89,8 +127,8 @@ body{
     margin-top: 0;
 }
 
-.herotext button{
-    background-color: #3882f6;
+.button{
+    background-color: #00a6c0;
     color: #f9faf8;
     border-radius: 4px;
     width: 120px;
@@ -99,6 +137,12 @@ body{
     font-size: 20px;
     font-weight: 700;
     transition-duration: 0.4s;
+}
+
+.button.alternate{
+    text-align: center;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
 }
 
 img{
